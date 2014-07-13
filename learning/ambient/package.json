@@ -1,0 +1,9 @@
+{
+  "author": "Ben Borowski <ben.borowski@typeoneerror.com>",
+  "name": "tessel-ambient",
+  "description": "Initial test of Tessel Ambient module.",
+  "version": "1.0.0",
+  "dependencies": {
+    "ambient-attx4": "*"
+  }
+}
