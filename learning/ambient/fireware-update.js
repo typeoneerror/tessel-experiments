@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var tessel = require('tessel');
 var ambientLib = require('ambient-attx4');
 

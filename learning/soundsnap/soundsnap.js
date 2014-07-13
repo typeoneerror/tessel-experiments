@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+
 var tessel  = require('tessel')
   , ambient_lib = require('ambient-attx4')
-  , ambient = ambient_lib.use(tessel.port['A']);
+  , ambient = ambient_lib.use(tessel.port['A'])
+  , snapper = require('snapper');
 
 var sound_threshold     = 0.02
   , reading_speed       = 250

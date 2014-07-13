@@ -4,6 +4,7 @@
   "description": "Take a photo with connected web cam when sound threshold is reached.",
   "version": "1.0.0",
   "dependencies": {
-    "ambient-attx4": "*"
+    "ambient-attx4": "*",
+    "opencv": "*"
   }
 }

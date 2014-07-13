@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Import the interface to Tessel hardware
 var tessel = require('tessel');
 
