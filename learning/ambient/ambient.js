@@ -24,7 +24,7 @@ ambient.on('ready', function() {
     })
   }, 500); // The readings will happen every .5 seconds unless the trigger is hit
 
-  ambient.setLightTrigger(0.5);
+  ambient.setLightTrigger(0.25);
 
   // Set a light level trigger
   // The trigger is a float between 0 and 1
@@ -36,7 +36,7 @@ ambient.on('ready', function() {
     //After 1.5 seconds reset light trigger
     setTimeout(function() {
 
-        ambient.setLightTrigger(0.5);
+        ambient.setLightTrigger(0.25);
 
     }, 1500);
   });
